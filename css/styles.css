@@ -1,0 +1,158 @@
+body{
+    background-color: white ;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    
+    
+} 
+
+/*.containerz{
+    text-align: center;
+    margin: 0;
+    background-image: url(/images/wedds.jpg);
+    background-position: center;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    padding: 0 8%;
+    
+} */
+hr{
+   
+    border-top: 5px dotted;
+    background-color: #8c8b8b;
+    
+
+}
+
+.intro-header {
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 50px;
+}
+.alex-theme{
+    font-family: 'Alex Brush';
+    font-weight: 400;
+    color: #FFE4B5;
+}
+.intro-div{
+    
+
+}
+
+.intro-msg{
+
+    margin-top: 60px;
+    color: black;
+}
+.intro-carpic{
+  
+    width: 50%;
+}
+.sep-border{
+ margin-bottom: 50px;
+}
+.save-date-content{
+    margin-bottom: 60px;
+}
+
+.auto-type {
+font-family: 'Ubuntu';
+
+}
+.save-date-details {
+
+
+}
+#fas{
+    font-size: 50px;
+    margin-right: 40px;
+    color: #8F384D;
+}
+.info-sp{
+    color: #8F384D;
+    font-weight: 550;
+    margin-top: 50px;
+    
+}
+#contents{    
+    background-color: #FFE4B5;
+    padding : 8% 3%;
+    margin: 20px 50px 30px;
+    color: white;
+}
+/*---#FFE4B5*/
+
+#title{
+    background-color: white;
+    padding : 3% 7% 7%;
+    margin: 20px 50px 0;
+    color: black;
+  }
+
+  #carouselIntroPics{
+    background-color: #FFE4B5 ;
+}
+
+#countdown{
+   
+    
+    margin: 0px 50px 30px;
+    
+}
+#save-date{
+    padding : 3% 20% 3%;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    
+}
+
+.county{
+    padding : 3% 15% 7%;
+   
+    
+}
+.p-time{
+    font-size: 60px;
+}
+
+
+.countdown-pic{
+
+margin-top: 30px;
+margin-bottom: 100px;
+
+}
+
+.abt-us-pic{
+    border-radius: 100%;
+    margin-bottom: 80px;
+}
+
+.container{
+    position: relative;
+}
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+}
+.social-media{
+    margin-bottom: 30px;
+    
+}
+.social-icon{
+    margin-left: 30px;
+    color:  #8F384D ;
+}
+
+@media (max-width: 1028px){
+
+    #carouselIntroPics{
+   
+        width: 30rem;
+    }
+
+}
