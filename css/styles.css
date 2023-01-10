@@ -34,10 +34,13 @@ hr{
 }
 .alex-theme{
     font-family: 'Alex Brush';
-    font-weight: 700;
+    font-weight: 900;
     color: #FFE4B5;
 }
+.intro-div{
+    
 
+}
 
 .intro-msg{
 
@@ -124,6 +127,14 @@ margin-bottom: 100px;
 }
 
 .abt-us-pic{
+    width : 350px ;
+    height: 400px;  
+    border-radius: 100%;
+    margin-bottom: 80px;
+}
+.abt-us-pic-2{
+    width : 400px ;
+    height: 400px;  
     border-radius: 100%;
     margin-bottom: 80px;
 }
@@ -147,9 +158,59 @@ margin-bottom: 100px;
 
 @media (max-width: 1028px){
 
-    #carouselIntroPics{
+  
+        #title{
+            padding: 0;
+            text-align: left;
+            
+        }
+        .container{
+            position: relative;
+        }
+        #carouselIntroPics{
    
-        width: 30rem;
-    }
+            width: 20rem;
+           text-align: center;
+           
+                }
+                .intro-msg 
+                {
+                    font-size: 0.85rem;
+                }
+                .save-date-details
+                {
+                    font-size: 0.95rem;
+                    text-align: center;
+                    line-height: 1.3rem;
+                }
+
+                #fas{
+                    margin-right: 10px;
+                    float: left;
+
+                   
+                }
+                .info-sp{
+                    text-align: right;
+                    
+                }
+                #save-date{
+                    margin-bottom: 30px;
+                }
+                .abt-us-pic{
+                    width : 200px ;
+                    height: 200px;  
+                    border-radius: 100%;
+                    margin-bottom: 50px;
+
+                }
+                .abt-us-pic-2{
+                    width : 200px ;
+                    height: 200px;  
+                    border-radius: 100%;
+                    margin-bottom: 50px;
+
+                }
+                   
 
 }
