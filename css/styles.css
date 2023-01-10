@@ -49,7 +49,7 @@ hr{
 }
 .intro-carpic{
   
-    width: 50%;
+    width: 100%;
 }
 .sep-border{
  margin-bottom: 50px;
@@ -88,12 +88,11 @@ font-family: 'Ubuntu';
 #title{
     background-color: white;
     padding : 3% 7% 7%;
-    margin: 20px 50px 0;
+    margin: 30px 50px;
     color: black;
   }
 
   #carouselIntroPics{
-    background-color: #FFE4B5 ;
 }
 
 #countdown{
@@ -156,36 +155,13 @@ margin-bottom: 100px;
     color:  #8F384D ;
 }
 
-
-#testimonials{
-   
-    text-align: center;
-        
-    background-color: #FFE4B5;
-        color: #fff;
-        margin: 50px 30px  ;
-    
-        padding: 3% 7% 7%;
-        display: flex;
-
-}
-
-
-.testimonial-img{
-
-    width: 100%;
-   
-
-}
-.carousel-item {
-    padding: 7% 15%;
-}
-
 @media (max-width: 1028px){
 
   
         #title{
-            padding: 0;
+            
+            margin: 50px 0 0;
+            padding: 3% 7%;
             text-align: left;
             
         }
@@ -194,7 +170,7 @@ margin-bottom: 100px;
         }
         #carouselIntroPics{
    
-            width: 20rem;
+            width: 100%;
            text-align: center;
            
                 }
@@ -236,25 +212,6 @@ margin-bottom: 100px;
                     margin-bottom: 50px;
 
                 }
-      #testimonials{
-        margin: 50px 0 0;
-        padding: 3% 7%;
-    }
-
-    .testimonial-img{
-
-        width: 100%;
-       
-    
-    }
                    
 
 }
-
-
-
-
-
-  
-    
-
